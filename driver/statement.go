@@ -5,8 +5,8 @@ import (
 	"context"
 	"database/sql/driver"
 	"errors"
+	"github.com/cognizance-processing/bigquery/adaptor"
 	"github.com/sirupsen/logrus"
-	"gorm.io/driver/bigquery/adaptor"
 )
 
 type bigQueryStatement struct {

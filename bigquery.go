@@ -3,8 +3,8 @@ package bigquery
 import (
 	"database/sql"
 	"fmt"
-	"gorm.io/driver/bigquery/adaptor"
-	_ "gorm.io/driver/bigquery/driver"
+	"github.com/cognizance-processing/bigquery/adaptor"
+	_ "github.com/cognizance-processing/bigquery/driver"
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"
 	"gorm.io/gorm/logger"

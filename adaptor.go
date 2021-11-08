@@ -2,7 +2,7 @@ package bigquery
 
 import (
 	"database/sql/driver"
-	"gorm.io/driver/bigquery/adaptor"
+	"github.com/cognizance-processing/bigquery/adaptor"
 	"gorm.io/gorm"
 	"gorm.io/gorm/schema"
 	"reflect"
