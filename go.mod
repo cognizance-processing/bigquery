@@ -1,4 +1,4 @@
-module gorm.io/driver/bigquery
+module github.com/cognizance-processing/bigquery
 
 go 1.14
 
